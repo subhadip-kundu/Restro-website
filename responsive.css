@@ -1,0 +1,593 @@
+@media(width<1201px) {
+  .news-content {
+    height: fit-content;
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+  }
+
+  .news2 {
+    width: 113%;
+  }
+
+  .news-date2 {
+    left: 58%;
+  }
+
+  .news-content__left {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .introduction {
+    min-height: 80vh;
+  }
+
+  .heading {
+    font-size: 80px;
+  }
+
+  .desc {
+    font-size: 15.5px;
+  }
+
+  .btn {
+    padding: 12px 40px;
+  }
+}
+
+@media(width<999px) {
+  .contact-container {
+    min-height: 68vh;
+  }
+
+  .news-heading1 {
+    margin-top: 10px;
+  }
+
+  .news-description {
+    font-size: 13px;
+  }
+
+  .news-name {
+    font-size: 19px;
+  }
+
+  .news-content__right {
+    width: 72%;
+    height: 100%;
+  }
+
+  .news-date2 {
+    height: 100px;
+    width: 100Px;
+    font-size: 20px;
+    position: absolute;
+    left: 40%;
+  }
+
+  .news2 {
+    width: 72%;
+  }
+
+
+  .read-more {
+    margin: 0px;
+  }
+
+  .meal {
+    width: 192px;
+    height: 185px;
+  }
+
+  .remove {
+    display: none;
+  }
+
+  .ham-icon {
+    display: block;
+  }
+
+  .lists {
+    margin-top: 24px;
+  }
+
+  .introduction {
+    min-height: 68vh;
+  }
+
+  .heading {
+    font-size: 68px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 10px 35px;
+  }
+
+  .offers-description {
+    font-size: 14px;
+    height: 150px;
+    padding: 30px;
+  }
+
+  .menu-heading1 {
+    font-size: 35px;
+  }
+
+  .discount-card {
+    width: 80%;
+    height: 90%;
+  }
+
+  .discount-container {
+    width: 90%;
+  }
+
+  /* .offers {
+    height: 1450px;
+  } */
+
+  .offers-heading1 {
+    font-size: 30px;
+  }
+
+  .offers-heading2 {
+    font-size: 38px;
+  }
+
+  .footer-links {
+    font-size: small;
+  }
+
+  .about {
+    text-align: justify;
+    font-size: small;
+  }
+
+  .news-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-input {
+    padding: 10px 5px;
+  }
+
+  .contact-content label {
+    font-size: 14px;
+  }
+
+  textarea {
+    height: 4em;
+  }
+}
+
+@media(width<750px) {
+  .meal-container {
+    flex-wrap: wrap;
+    padding: 0 100px;
+  }
+
+  .introduction {
+    min-height: 50vh;
+  }
+
+  .discount-container {
+    flex-wrap: wrap;
+  }
+
+  .offers-heading1 {
+    font-size: 28px;
+  }
+
+  .offers-heading2 {
+    font-size: 32px;
+  }
+
+  .heading {
+    font-size: 50px;
+  }
+
+  .desc {
+    font-size: 12px;
+  }
+
+  .news-content__left {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .news-image__right img {
+    width: 60vw;
+  }
+
+
+  .news-content__right {
+    width: 72%;
+    height: 100%;
+  }
+
+  .news-date2 {
+    height: 100px;
+    width: 100Px;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+  }
+
+  .news-left {
+    margin: 10px;
+  }
+
+  .news2 {
+    width: 92%;
+  }
+
+  .booking-heading2 {
+    font-size: 45px;
+    margin-bottom: 54px;
+  }
+
+  .booking-heading1 {
+    font-size: 32px;
+  }
+
+  .hour {
+    font-size: 13px;
+  }
+
+  .reservation-content {
+    height: 68vh;
+    width: 90%;
+  }
+
+  .time {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+
+  .footer-column {
+    width: 49%;
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .footer-container {
+    height: fit-content;
+    flex-direction: column-reverse;
+  }
+
+  .copy {
+    font-size: 11px;
+    line-height: 50px;
+  }
+
+  .social {
+    font-size: 20px;
+  }
+
+  .meal {
+    width: 174px;
+    height: 161px;
+  }
+
+  .offers {
+    height: 1550px;
+  }
+}
+
+@media(width<581px) {
+  .meal-container {
+    height: fit-content;
+    gap: 15px;
+    padding: 50px;
+  }
+
+  .meal {
+    width: 150px;
+    height: 150px;
+  }
+
+  .meal-link img {
+    height: 75px;
+  }
+
+  .meal-name {
+    font-size: 20px;
+  }
+
+  .menu-content {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .menu {
+    width: 80%;
+    height: 100vh;
+  }
+
+  .menu-container {
+    min-height: 140vh;
+  }
+
+  .contact-heading {
+    font-size: 55px;
+  }
+
+  .contact-container {
+    min-height: 75vh;
+  }
+
+  .introduction-content {
+    height: 300px;
+  }
+
+  .introduction {
+    min-height: 34vh;
+  }
+
+  .footer-container {
+    height: 900px;
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .reservation-content{
+    height: 95%;
+    flex-direction: column;
+  }
+  .book-input {
+    width: calc(100%/2 - 20px);
+  }
+  .from-container{
+    height: 70%;
+  }
+  .reservaton-container{
+    height: 140vh;
+    justify-content: start;
+    padding-top: 50px;
+  }
+
+  .time-container {
+    width: 100%;
+    height: 50%;
+  }
+
+  .booking-container {
+    width: 100%;
+    height: 45%;
+  }
+
+  .booking-heading2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .booking-heading1::after {
+    margin: 0px;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  .time {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+
+  .time {
+    margin-top: 5px;
+  }
+
+  .discount-card {
+    width: 90%;
+    height: 81%;
+  }
+
+  .offers-heading2,
+  .news-heading2,
+  .open {
+    margin-bottom: 20px;
+  }
+
+  .discount-card img {
+    height: 150px;
+  }
+
+  .offers {
+    height: 1250px;
+    gap: 15px;
+  }
+
+  .off {
+    height: 50px;
+    width: 50px;
+    font-size: 14px;
+  }
+
+  .offers-description {
+    font-size: 14px;
+    height: 120px;
+    padding: 30px;
+  }
+
+  .menu-heading2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+
+  .news-content__left {
+    width: 117%;
+  }
+
+  .hour {
+    font-size: 16px;
+  }
+
+  .day {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .times {
+    height: 90%;
+  }
+
+  .news-image__right img {
+    width: 80vw;
+    position: relative;
+    top: 0;
+    left: -50px;
+  }
+
+}
+
+@media(width<370px) {
+
+  .food-name,
+  .food-cost {
+    font-size: 17px;
+  }
+
+  .food-description {
+    font-size: 12px;
+  }
+
+  .menu-content img {
+    width: 100px;
+  }
+  .menu-heading2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+  .menu-content:last-child {
+    margin-bottom: 2rem;
+  }
+
+  .menu-container {
+    min-height: 139vh;
+  }
+
+  .time-section span{
+    font-size:smaller;
+  }
+  .time-container {
+    height: fit-content ;
+  }
+  .time-section{
+    margin-bottom: 20px;
+    height: 15%;
+  }
+  .booking-container {
+    width: 100%;
+  }
+  .from-container{
+    height: fit-content;
+  }
+  .contact-content {
+    width: 80%;
+  }
+
+  .footer-column {
+    width: 78%;
+  }
+
+  .reservaton-container {
+    min-height: 1000px;
+  }
+  .reservation-content {
+    height: 97%;
+  }
+  .news-heading2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .news-content__right{
+    display: none;
+  }
+  .offers-heading2,.menu-heading1 {
+    font-size: 25px;
+  }
+  .offers-description {
+    width: 125%;
+    padding: 5px;
+  }
+  .news-left {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .news-container {
+    justify-content: flex-start;
+  }
+
+  .news-image{
+    width: 100%;
+  }
+  .news-content {
+    height:800px;
+  }
+  .news-image {
+    height: 100%;
+    position: relative;
+    top: 0px;
+  }
+  .news1,.news2{
+    width: 100%;
+  }
+  .day{
+    margin: 0;
+  }
+  .time {
+    margin-top: 19px;
+  }
+
+  .booking-heading2{
+    text-align: center;
+    font-size: 20px;
+  }
+  .booking-container {
+    justify-content: flex-start;
+  }
+  .book-input {
+    width: calc(100%);
+  }
+  .from-container + .btn{
+    margin-bottom: 20px;
+  }
+  .contact-heading{
+    font-size: 40px;
+  }
+  .btn-send{
+    margin:10px  auto;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  .footer-links{
+    width: 100%;
+    align-items:  center;
+  }
+  .copy{
+    line-height: 10px;
+  }
+}
+
+@media(height<700px) and (width>581px) {
+  .reservaton-container {
+    min-height: 110vh;
+  }
+  .reservation-content {
+    height: 94vh;
+    width: 90%;
+  }
+}
