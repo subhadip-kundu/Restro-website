@@ -21,9 +21,24 @@
 
 <body>
     <!-- Header section -->
+    <div class="nav-list ">
+        <ul class="lists" >
+            <li ><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">offers</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
     <div class="header">
-        <div class="header-section">
-            <div class="header-left">
+        <div class="ham-icon " >
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="header-section remove">
+            <div class="header-left ">
                 <a href="#">Home</a>
                 <a href="#">About us</a>
                 <a href="#">Services</a>
@@ -37,7 +52,7 @@
                 </a>
             </div>
         </div>
-        <div class="header-section">
+        <div class="header-section remove">
             <div class="header-right">
                 <a href="#">Menu</a>
                 <a href="#">News</a>
@@ -273,7 +288,7 @@
                 <div class="booking-heading1">Reservation</div>
                 <div class="booking-heading2">online booking</div>
                 <div class="from-container">
-                    <input type="number" class="book-input" placeholder="Person">
+                    <input type="number" class="book-input" placeholder="Person" min="1" max="4">
                     <input type="date" class="book-input">
                     <input type="time" class="book-input" placeholder="Time">
                     <input type="text" class="book-input" placeholder="Name">
@@ -352,6 +367,7 @@
     </div>
 
     <!-- Footer section finished -->
+
     <script src="./script.js"></script>
 </body>
 
